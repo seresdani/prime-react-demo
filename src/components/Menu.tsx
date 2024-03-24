@@ -44,15 +44,6 @@ export default function Menu() {
   return (
     <div className="card">
       <Menubar model={items} start={icon} end={avatar} />
-      {/* <MegaMenu
-        model={items}
-        orientation="horizontal"
-        start={start}
-        end={end}
-        breakpoint="960px"
-        className="p-3 surface-0 shadow-2"
-        style={{ borderRadius: "3rem" }}
-      /> */}
     </div>
   );
 }
