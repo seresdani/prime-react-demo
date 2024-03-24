@@ -1,15 +1,15 @@
 .p-tree {
-    .p-tree-container {
-        .p-treenode {
-            .p-treenode-content {
-                &:focus {
-                    background: $emphasis-lower;
+  .p-tree-container {
+    .p-treenode {
+      .p-treenode-content {
+        &:focus {
+          background: $emphasis-lower;
 
-                    &.p-highlight {
-                        background: rgba($primaryColor, .24);
-                    }
-                }
-            }
+          &.p-highlight {
+            background: rgba($primaryColor, 0.24);
+          }
         }
+      }
     }
+  }
 }
